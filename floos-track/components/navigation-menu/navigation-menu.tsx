@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import { IconWallet } from "@tabler/icons-react";
-import Link from "next/link";
+import { IconWallet } from '@tabler/icons-react'
+import Link from 'next/link'
 
 export default function NavigationMenu() {
   return (
@@ -27,5 +27,5 @@ export default function NavigationMenu() {
         <div className="flex-1" />
       </div>
     </div>
-  );
+  )
 }

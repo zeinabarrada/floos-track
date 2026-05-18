@@ -1,7 +1,7 @@
-import { Button, Form, Input } from "antd";
+import { Button, Form, Input } from 'antd'
 
 function Login() {
-  const [form] = Form.useForm();
+  const [form] = Form.useForm()
 
   return (
     <Form layout="vertical" form={form} style={{ maxWidth: 600 }}>
@@ -15,6 +15,6 @@ function Login() {
         <Button type="primary">Submit</Button>
       </Form.Item>
     </Form>
-  );
+  )
 }
-export default Login;
+export default Login
